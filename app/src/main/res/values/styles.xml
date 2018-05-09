@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Style for a tab that displays an attraction list -->
+    <style name="AttractionTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabSelectedTextColor">#E0EE0E</item>
+        <item name="tabTextAppearance">@style/AttractionTabTextAppearance</item>
+
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="AttractionTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="PrimaryFlatButton" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">
+            @style/Widget.AppCompat.Button.Borderless.Colored
+        </item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

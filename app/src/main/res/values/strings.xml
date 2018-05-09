@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">RagusaTourGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description_sample">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <!--Fragment titles-->
+    <string name="fragment_title_1">UNESCO</string>
+    <string name="fragment_title_2">OTHERS</string>
+    <string name="fragment_title_3">Food &amp; Beverage</string>
+    <string name="fragment_title_4">Directions</string>
+
+    <!--Unesco sights list-->
+    <string name="unesco_name_1">San Giovanni Battista</string>
+    <string name="unesco_name_2">Palazzo Vescovile Schininà</string>
+    <string name="unesco_name_3">Palazzo Zacco</string>
+    <string name="unesco_name_4">Palazzo Bertini</string>
+    <string name="unesco_name_5">Santa Maria Delle Scale</string>
+    <string name="unesco_name_6">Santa Maria Dell\'Itria</string>
+    <string name="unesco_name_7">Palazzo Cosentini</string>
+    <string name="unesco_name_8">Chiesa Del Purgatorio</string>
+    <string name="unesco_name_9">Chiesa S. Filippo Neri</string>
+    <string name="unesco_name_10">San Giorgio</string>
+    <string name="unesco_name_11">San Francesco All\'Immacolata</string>
+
+    <string name="unesco_description_1">The late baroque Saint John Cathedral, originally placed in Ragusa Ibla, was rebuilt after the earthquake of 1693 on the Patro hill, the place chosen for the reconstruction of new Ragusa. Consecrated in 1778, when the main works were finished. Inside the church, you can see golden stucco decorations and fine paintings. In the majestic façade, there are six Corinthian columns and three portals. The bell tower with its 50 meters dominates the façade. In the tympanum there are an electric clock and two solar clocks. In the sides of the church, they were built two small gardens. The parvis is a terrace with an asphaltic stone balustrade that incorporates 24 seats.</string>
+    <string name="unesco_description_2">The Marquis Mario Schininà Cosentini built the palace at the end of 18th century. The heirs divided it in two parts, one remained property of the family and the other became episcopal seat of Ragusa. It is famous for its balconies of white stone carved in rococo style. </string>
+    <string name="unesco_description_3">The Baron Melfi of S\'Antonio built the palace in 1780, later at the end of 19th century Zacco family bought it. It is famous for the carvings in the Sicilian late baroque style, which decorate its facades, especially the grotesque masks and the musicians which appear to support the palazzo's balconies.</string>
+    <string name="unesco_description_4">This palace was built at the end of 18th century and some years later bought by Bertini family. In 1847 the road level was lowered and the three original doorways became the current three balconies. In the keystones of each doorway, you can see three grotesque masks that represent the rich merchant, the aristocrat and the poor, made of the local asphaltic stone. </string>
+    <string name="unesco_description_5">Saint Mary of the Stars church was built on a convent by some Cistercian monks, in the first half of the 13th century, then Chiaramonte family rebuilt it in a Gothic style in 1300. Only partially damaged by the 1693 earthquake, the building was enlarged and rebuilt in 1700. The current name refers to its position at the top of the stairs that connect upper Ragusa with Ragusa Ibla. The most important part of the church is the right aisle with the carved arch in late Catalan gothic style.</string>
+    <string name="unesco_description_6">Saint Mary of Itria was built in 14th century by Chiaramonte family and first dedicated to Saint Julian Bishop “the Hospitaller”, because it was placed next to a charitable institution for poor and ill people. The current church name is due to the huge worship of an Itria Virgin Mary image. The owner of the church for centuries was the Order of knights of Malta.  In the middle of 18th century, it was rebuilt and enlarged in late baroque style. Particularly interesting are the five altars of the side aisles carved and decorated by the local sculptors Cultraro between 1741 and 1758.</string>
+    <string name="unesco_description_7">The Baron Raffaele Cosentini built this palace in 18th century and it was completed by 1767. It is placed in an important crossroad of Ragusa as demonstrated the two statues of patron saints of travellers Saint Francis of Paola (still existing) and Saint Rocco, put in the two corners of the palace. The three balconies of the upper floor are supported by brackets decorated with two grotesque masks each. The balcony of the lateral side instead, has five brackets decorated with the most original masks of the city: grotesque masks that keep in their mouths symbolic animals and are dominated by symbolic representations of abundance.</string>
+    <string name="unesco_description_8">Purgatory church was consecrated in 1658 and the 1693 earthquake didn’t damage it, but during the 18th century the church was rebuilt and enlarged due to the increasing numbers of inhabitants. A stair of 26 steps is placed before the church and give it a relevant position inside the square. Inside the church there are two important paintings: “The saints and the souls of purgatory” made by Francesco Manno and “The Lady of Rosary” made by Tommaso Pollace.</string>
+    <string name="unesco_description_9">Saint Philip Neri was built in 1636 thanks to the economic help of some local aristocratic families. It was enlarged in 1740 and some years later deeply renovated. For this it is difficult to catch the original appearance of the church, that you can see only in the side chapel that maintains the original floor, a painting of 17th century, and the altar covered by painted glasses to imitate the marble. </string>
+    <string name="unesco_description_10">Before the 1693 earthquake Saint George cathedral was in the east part of Ragusa Ibla, near the Iblean Gardens, where today you can see the only part survived to the earthquake, that is the Catalan gothic old portal of 15th century. In 18th century, the church was rebuilt on the Saint Nicolas church, in a more central position. In 1738 the architect Rosario Gagliardi received the task to elaborate the project of the new church, and he realized one of his masterpiece. The church is placed above a majestic stair. The façade is divided in three parts: below you find the big portal with a carved frame and a carved wooden door, in the middle the coloured window where is represented Saint George killing the dragon and above the bells tower and a clock, finally on the top the bulb pinnacle with the cross. Inside there are many interesting paintings of  Vito D’Anna, Francesco Manno, Dario Querci, the Saint George treasure and the two simulacrums (Saint George and the Holy ark) you can see during Saint George feast. Very fine the Serassi pipe organ and the white stone altarpiece made by Gagini beween 1573 and 1576.</string>
+    <string name="unesco_description_11">Immaculate Conception church was built in the middle of 13th century, together to the convent, by the local Franciscan friars. Between 16th and 17th century, it was rebuilt and enlarged. The 1693 earthquake caused serious damages, but the church was rapidly repaired and reopened in 1711. From the original gothic church remained only: the portal with its particular hook capitals and the base of the bell tower. Inside the church is very rich, you can find many interesting art works like: the painting “L\'Estasi di Sant\'Andrea” of Antonino Monoli (1724), a holy water font made of asphaltic stone (1500), the painting “San Giuseppe da Copertino” of Elia Interguglielmini (1816), the painting “Immaculate Conception” of Francesco Manno (1796), the mausoleum of the Baron Corrado Arezzo and many others. After the 1990 earthquake, the church was restored and during the restoring works, they were discovered some particular frescos made with lime.</string>
+    <string name="unesco_description_12"></string>
+
+    <string name="unesco_address_1">Piazza S. Giovanni, 41-45, 97100 Ragusa RG</string>
+    <string name="unesco_address_2">Via Roma, 109, 97100 Ragusa RG</string>
+    <string name="unesco_address_3"> Via S. Vito, 97100 Ragusa RG</string>
+    <string name="unesco_address_4">Corso Italia, 22, 97100 Ragusa RG</string>
+    <string name="unesco_address_5"> C.so Mazzini, 97100 Ragusa Ibla RG</string>
+    <string name="unesco_address_6">Salita Commendatore, 97100 Ragusa RG</string>
+    <string name="unesco_address_7">Corso Mazzini, 97100 Ragusa RG</string>
+    <string name="unesco_address_8">Piazza della Repubblica, 2, 97100 Ragusa RG</string>
+    <string name="unesco_address_9"> Via Giusti, 97100 Ragusa RG</string>
+    <string name="unesco_address_10">Piazza Duomo, 97100 Ragusa RG</string>
+    <string name="unesco_address_11">Piazza Chiaramonte, 97100 Ragusa RG</string>
+
+    <!--Others sights list-->
+    <string name="others_name_1">Palazzo Arezzo</string>
+    <string name="others_name_2">Circolo Di Conversazione</string>
+    <string name="others_name_3">Giardini Iblei</string>
+    <string name="others_name_4">Castello Di Donnafugata</string>
+    <string name="others_name_5">Museo Archeologico di Ragusa</string>
+    <string name="others_name_6">Chiesa di S.Giacomo</string>
+    <string name="others_name_7">Chiesa di Sant\'Agata ai Cappuccini</string>
+
+    <string name="others_description_1">The palace of the Baron of Donnafugata is certainly one of the most important palace of Ragusa Ibla. The original palace built by don Vincenzo Arezzo at the beginning of 17th century, was destroyed by the 1693 earthquake. The grandson Vincenzo rebuilt the palace immediately after the earthquake in the same place. About a century later, the Baron Corrado Maria Arezzo decided to enlarge and rebuilt the palace. At the beginning of 1800 the building is ready and the baron entrusts Stefano Cotardi to paint and decorate the interior, following the neoclassical style. The garden was arranged and adorned with statues. In the second part of 19th century, the Baron Corrado Arezzo de Spuches transformed the palace as a place apt to meet eminent people. The doorway was enlarged and transformed in a long stone gallery that led to the garden in the left side, and to a sumptuous perron made of white marble in the right side. In the first floor the Baron created representative rooms where he received and amazed his guests with luxurious furniture, decorations, furnishings and many artworks. The heirs of the Baron decided to live in the palace, but to do this they had to build a residential wing. Today they are renovating the different parts of the palace. Interesting is the last balcony in the left where was built a wooden loggia to imitate the Maltese ones, and the small theatre renovated in 2004.</string>
+    <string name="others_description_2">The conversation club was built in 1830, as a place where nobles could spend their spare time in different ways. The founders were 18 nobles of Ragusa. The club façade is in neoclassical style, with three doorways divided by six fluted pilasters with Doric capitals. In the façade there are three low reliefs, the two lateral low reliefs represent two winged sphinxes while the central one represent two winged women carrying a lamp. On the ledge, there is an oval sculpture with the Ragusa eagle. In the interior, there is the “Mirror Room” with the walls covered by four big mirrors, the ceiling painted with frescos and the sofas and the curtains made of red damask. The other rooms are luxurious too and they are used for playing cards, reading, make concerts, organize parties and cultural events. There is an interior garden too. In 2002 the club had 250 members. </string>
+    <string name="others_description_3">Iblean Gardens were built in 1858 by three noble citizens of Ragusa. The gardens were finished in 1930, when they got the current features.  The gardens are placed on a panoramic rock. Along the entrance boulevard, there are different palms, stone benches, columns and vases. Inside the gardens, there are three churches: Saint James, Saint Vincent Ferreri and Capuchin church. The gardens were built in three phases: the first phase was that of the construction of Capuchin church and the main boulevard, the second phase was that of the construction of the central part with the late romantic hill and the geometric flowerbeds, the third phase was that of the construction of the pine forest that is the worst integrated part. </string>
+    <string name="others_description_4">The history of Donnafugata castle dates back to the middle age, when in the countryside of Ragusa on a hill the Arabs built a tower, then the Count Manfredi Chiaramonte built a small castle in the same place that was passed down to his heirs. In particular when the owner, the Count Bernardo Cabrera, fell head over Bianca di Navarra, the young widow of king Martino, and proposed to her, she refused and the Count kidnapped her and close her in this castle, but she finally escaped.  This is a legend that explain the etymology of the name Donnafugata (donna=woman - fugata=escaped), but is one of the hypothesis. During the centuries, the Donnafugata fief and its castle passed to Arezzo family that enlarged the castle and enriched it with prestigious collections. In 1982 Ragusa municipality purchase the castle and only after long works of renovation, it opened. In 2008 also the big garden around the castle was renovated. In the garden there are 1500 plant species and many attractions like a coffee house, a circular temple, the labyrinth. The façade is characterized by a gothic style, in particular under the gallery there are eight double arched windows. In the upper part the façade has battlements and in the sides two circular towers. The building has 144 rooms, but only 20 rooms are open to the visitors. In the noble floor, there are prestigiously decorated rooms, like the Emblems room, the Music room, the Mirror room and others.</string>
+    <string name="others_description_5">The archeological museum of Ragusa illustrates the old history of Ragusa territory since Neolithic age by means of 5000 finds. In 1960 it was built a first unit with the finds coming from the Greek necropolis of Rito district and from the Hellenistic town of Scornavacche. In late 60’s the museum was completed and organized. It is divided in 6 sections: Prehistory and Bronze Age, Hellenistic necropolis, Siculan towns, Hellenistic towns, Romans and Byzantine towns, Collections. Between the main finds there are the “Castiglione warrior” and the “Comiso stele”. The Castiglione warrior is a bas-relief on a white limestone slab, very probably it was the architrave of a tomb door. It is a unique find that belongs to the archaic Sicilian art. Comiso stele is a funerary inscription, a poem of two lines written in Greek using Chalcis alphabet. It was written about 1500 years ago. </string>
+    <string name="others_description_6">Saint James church was built by Chiaramonte family, when they arrived in Ragusa in 1283. The 1693 earthquake destroyed the lateral chapels and the façade that was rebuilt after three years. In 1700 the bishop appointed arch confraternity the confraternity of Saint James for the help the friars gave during and after the earthquake. In 1705 the roofing of the church was finished. In 1735 Simone Ventura decorated the wooden ceiling. Three painting, representing Nativity, the Three wise men and the Flight into Egypt, were placed in the ceiling. Unfortunately, these artworks were damaged and only in 1902 the ceiling was partially renovated and arranged. Very particular is the false dome painted in the ceiling. The façade was built in 1902 and placed against the previous one. The façade can be divided in three levels: the first with the doorway between two columns with Corinthian capitals, the second with a window, the third with the bell tower rounded by balustrades with two statues and a high relief of Saint James. Inside the church there are eleven altars richly decorated with different artworks. Interesting is the painting representing Saint James killing the Muslims painted by Vincenzo Fazello and Ignazio Scacco in 1682.</string>
+    <string name="others_description_7">The first Capuchin convent was located outside Ragusa near to a water spring that was also a malarial place. For this in 1607 the convent was rebuilt near to Saint Agata church. It was a big building with more of 50 cells and a wide courtyard. Later church and convent were included inside the Iblean gardens. In time it was abandoned and only in 2013 the convent was renovated and became a professional cooking school and an hotel. The church façade is very simple. Inside it maintains the original wooden ceiling of 1614, moreover in the altar there is an important altarpiece painted by Pietro Novelli between 1640 and 1643. This artwork was donated by the noble Niccolò Branciforte from Palermo, to Capuchins friars of Ragusa, when his wife died. The grandmother of the wife has been saved miraculously by a capuchin friar of Ragusa many years before and after this Niccolò Branciforte and his wife had become very devout and made often donations to capuchins friars. The painting is inside a fine carved wooden frame and it is divided in three parts: the bigger painting is in the central part and represents the Assumption, the lateral paintings represent Saint Agata on the left and Saint Catherine of Alexandria on the right. </string>
+
+    <string name="others_address_1">Corso XXV Aprile, 4, 97100 Ragusa RG</string>
+    <string name="others_address_2">Via Alloro, 5, 97100 Ragusa RG</string>
+    <string name="others_address_3">P.zza G. B. Odierna, 97100 Ragusa RG</string>
+    <string name="others_address_4">Contrada Donnafugata, 97100 Ragusa RG</string>
+    <string name="others_address_5">Via Natalelli, 11, 97100 Ragusa RG</string>
+    <string name="others_address_6">Via del Portale, 17, 97100 Ragusa RG</string>
+    <string name="others_address_7">Viale Margherita, 97100 Ragusa RG</string>
+
+    <!--Food sights list-->
+    <string name="food_name_1">La Capinera</string>
+    <string name="food_name_2">Silva Suri</string>
+    <string name="food_name_3">Salumeria Barocco</string>
+    <string name="food_name_4">Sicilis Good Sicilian Food</string>
+    <string name="food_name_5">Delicatessen</string>
+    <string name="food_name_6">LoSteri</string>
+
+
+    <string name="food_address_1">Contrada Arancelli SNC, 97100, Ragusa</string>
+    <string name="food_address_2">Contrada Pulce Carrera SNC, 97100, Marina di Ragusa</string>
+    <string name="food_address_3">Corso Venticinque Aprile 80, 97100, Ragusa</string>
+    <string name="food_address_4">Via Venezia, 5, 97010 Marina di Ragusa</string>
+    <string name="food_address_5">Via Archimede, 32, 97100, Ragusa</string>
+    <string name="food_address_6">Piazza Chiaramonte, 8, 97100, Ragusa</string>
+
+
+    <string name="food_number_1">+390932686458</string>
+    <string name="food_number_2">+390932619603</string>
+    <string name="food_number_3">+390932652419</string>
+    <string name="food_number_4">+393206555950</string>
+    <string name="food_number_5">+3909321910551</string>
+    <string name="food_number_6">+39335598 8823</string>
+
+    <string name="food_sito_1">http://www.ristorantelacapineraragusa.it/</string>
+    <string name="food_sito_2">https://silvasuri.eu/</string>
+    <string name="food_sito_3">http://www.salumeriabarocco.it</string>
+    <string name="food_sito_4">http://www.sicilis.it/</string>
+    <string name="food_sito_5">http://delicatessenragusa.it</string>
+    <string name="food_sito_6">https://m.facebook.com/LoSteri-1545780692386209/</string>
+
+
+    <string name="direction_name_1">Comiso Airport</string>
+    <string name="direction_name_2">Catania Airport</string>
+    <string name="direction_name_3">Azienda Siciliana Trasporti</string>
+    <string name="direction_name_4">ETNA-Interbus</string>
+
+
+    <string name="direction_description_1">Comiso Airport "Pio La Torre" (CIY), also known as Vincenzo Magliocco Airport, is located in the Sicilian town of Comiso in the Ragusa province. It is only <u>15km</u> far away from Ragusa.  <a href="http://www.aeroportodicomiso.eu/it/">Check the site.</a></string>
+    <string name="direction_description_2">Catania–Fontanarossa Airport (CTA),  also named as Vincenzo Bellini Airport, is an international airport, 5km southwest of Catania, the second largest city on the Italian island of Sicily.  It is about <u>90km</u> far away from Ragusa. </string>
+    <string name="direction_description_3">AST (Azienda Siciliana Trasporti) makes several runs from many important sicilian cities. The most important is the Palermo-Ragusa. Check the website to find all the schedules.</string>
+    <string name="direction_description_4">Etna Trasporti is another important bus company. Its most important run is the Catania-Catania Airport-Ragusa. Check the website for a complete schedule.</string>
+
+    <string name="direction_site_1">http://www.aeroportodicomiso.eu/en/</string>
+    <string name="direction_site_2">http://www.aeroporto.catania.it/?lang=en</string>
+    <string name="direction_site_3">http://www.astsicilia.it/75701-2/</string>
+    <string name="direction_site_4">http://www.interbus.it/Orarietariffe.aspx</string>
+
+
+    <!--String Button Card-->
+    <string name="button">Website</string>
+
+    <string name="image_description">Sight Photo</string>
+
+
+</resources>
