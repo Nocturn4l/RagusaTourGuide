@@ -26,17 +26,18 @@ protected void onCreate(Bundle savedInstanceState) {
     ab.setDisplayHomeAsUpEnabled(true);
 
     //Retrieving Intent Data and Populate the Layout
-    Intent incomeIntent = getIntent();
+    Bundle data = getIntent().getExtras();
+    Sight sight = data.getParcelable("sight");
     TextView title=findViewById(R.id.title);
     TextView telephone=findViewById(R.id.number);
     TextView site=findViewById(R.id.site);
     TextView address=findViewById(R.id.address);
-    title.setText(incomeIntent.getStringExtra("sight_name"));
-    telephone.setText(incomeIntent.getStringExtra("sight_number"));
-    site.setText(incomeIntent.getStringExtra("sight_site"));
-    address.setText(incomeIntent.getStringExtra("sight_address"));
+    title.setText(sight.getSightName());
+    telephone.setText(sight.getSightTelephone());
+    site.setText(sight.getSightSite());
+    address.setText(sight.getSightAddress());
     ImageView photoSight=findViewById(R.id.photo);
-    photoSight.setImageResource(incomeIntent.getIntExtra("sight_photo",0));
+    photoSight.setImageResource(sight.getSightResourceId());
 
     //Add a ClickListener that call a map intent
     ImageView mapIcon=findViewById(R.id.map_ico);

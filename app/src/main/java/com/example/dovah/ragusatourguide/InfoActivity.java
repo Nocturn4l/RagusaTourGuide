@@ -28,15 +28,16 @@ public class InfoActivity extends AppCompatActivity {
 
 
         //Retrieving Intent Data and Populate the Layout
-        Intent incomeIntent = getIntent();
+        Bundle data = getIntent().getExtras();
+        Sight sight = data.getParcelable("sight");
         TextView title=findViewById(R.id.title);
         TextView descr=findViewById(R.id.description);
         TextView address=findViewById(R.id.address);
-        title.setText(incomeIntent.getStringExtra("sight_name"));
-        descr.setText(incomeIntent.getStringExtra("sight_description"));
-        address.setText(incomeIntent.getStringExtra("sight_address"));
+        title.setText(sight.getSightName());
+        descr.setText(sight.getSightDescription());
+        address.setText(sight.getSightAddress());
         ImageView photoSight=findViewById(R.id.photo);
-        photoSight.setImageResource(incomeIntent.getIntExtra("sight_photo",0));
+        photoSight.setImageResource(sight.getSightResourceId());
 
         //Add a ClickListener that call a map intent
         ImageView mapIcon=findViewById(R.id.map);

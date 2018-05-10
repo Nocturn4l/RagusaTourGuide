@@ -36,10 +36,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull final ViewGroup parent, int viewType) {
 
-        /*View itemView= LayoutInflater.from(mContext).inflate(R.layout.list_item,parent,false);
-        final MyViewHolder viewHolder=new MyViewHolder(itemView);*/
-
-        //Call the correct Activity
+        //Call InfoActivity for the first 2 Fragment
         if(fragmentId!=2&&fragmentId!=3) {
             View itemView= LayoutInflater.from(mContext).inflate(R.layout.list_item,parent,false);
             final MyViewHolder viewHolder=new MyViewHolder(itemView);
@@ -49,13 +46,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 public void onClick(View v) {
                     int position = viewHolder.getAdapterPosition();
                     Intent infoIntent = new Intent(mContext, InfoActivity.class);
-                    infoIntent.putExtra("sight_name", mData.get(position).getSightName());
-                    infoIntent.putExtra("sight_description", mData.get(position).getSightDescription());
-                    infoIntent.putExtra("sight_address", mData.get(position).getSightAddress());
-                    infoIntent.putExtra("sight_photo", mData.get(position).getSightResourceId());
+                    infoIntent.putExtra("sight", mData.get(position));
                     mContext.startActivity(infoIntent);
                 }
             });return viewHolder;
+         //Call InfoFoodActivity for the third.
         } else if (fragmentId==2){
             View itemView= LayoutInflater.from(mContext).inflate(R.layout.list_item,parent,false);
             final MyViewHolder viewHolder=new MyViewHolder(itemView);
@@ -64,16 +59,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 public void onClick(View v) {
                     int position = viewHolder.getAdapterPosition();
                     Intent infoIntent = new Intent(mContext, InfoFoodActivity.class);
-                    infoIntent.putExtra("sight_name", mData.get(position).getSightName());
-                    infoIntent.putExtra("sight_description", mData.get(position).getSightDescription());
-                    infoIntent.putExtra("sight_address", mData.get(position).getSightAddress());
-                    infoIntent.putExtra("sight_photo", mData.get(position).getSightResourceId());
-                    infoIntent.putExtra("sight_number",mData.get(position).getSightTelephone());
-                    infoIntent.putExtra("sight_site",mData.get(position).getSightSite());
+                    infoIntent.putExtra("sight", mData.get(position));
                     mContext.startActivity(infoIntent);
 
                 }
             });return viewHolder;
+            //Manage Card View Button of the Fourth Fragment
         } else{
             View itemView= LayoutInflater.from(mContext).inflate(R.layout.card_item,parent,false);
             final MyViewHolder viewHolder=new MyViewHolder(itemView);
@@ -108,7 +99,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-
+        //DirectionFragment need different resources
         if (fragmentId==3){
             holder.photoImageView.setImageResource(mData.get(position).getSightResourceId());
             holder.descriptionCardView.setText(mData.get(position).getSightDescription());

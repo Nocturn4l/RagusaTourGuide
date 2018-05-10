@@ -27,18 +27,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="240dp"
                 android:src="@drawable/smaria"
-                android:scaleType="fitXY" />
+                android:scaleType="fitXY"
+                android:contentDescription="@string/image_description"/>
             <TextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="San Giovanni Battista"
+                tools:text="@string/unesco_name_1"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:paddingTop="14dp"
                 android:paddingBottom="0dp"
                 android:textColor="@color/colorAccent"
-                android:paddingLeft="20dp"/>
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"/>
             <TextView
                 android:id="@+id/description"
                 android:layout_width="match_parent"
@@ -68,7 +70,9 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="10dp"
-                    android:background="?attr/selectableItemBackground"/>
+                    android:layout_marginEnd="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="@string/map_ico"/>
             </RelativeLayout>
 
         </LinearLayout>

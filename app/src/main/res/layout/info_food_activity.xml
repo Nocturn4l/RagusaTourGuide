@@ -29,7 +29,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="240dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/capinera" />
+                android:src="@drawable/capinera"
+                android:contentDescription="@string/image_description"/>
 
             <TextView
                 android:id="@+id/title"
@@ -37,11 +38,12 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="0dp"
                 android:paddingTop="14dp"
-                android:text="La Capinera"
+                tools:text="@string/food_name_1"
                 android:textColor="@color/colorAccent"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                android:paddingLeft="10dp"/>
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -54,7 +56,7 @@
                     android:layout_toLeftOf="@id/number_ico"
                     android:layout_toStartOf="@id/number_ico"
                     android:padding="20dp"
-                    android:text="@string/food_number_1"
+                    tools:text="@string/food_number_1"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
 
@@ -66,7 +68,9 @@
                     android:layout_alignParentRight="true"
                     android:src="@mipmap/ic_call"
                     android:layout_marginRight="10dp"
-                    android:background="?attr/selectableItemBackground"/>
+                    android:layout_marginEnd="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="@string/call_ico"/>
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -76,7 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="@string/food_sito_6"
+                tools:text="@string/food_sito_6"
                 android:textSize="14sp"
                 android:layout_toLeftOf="@id/web_ico"
                 android:layout_toStartOf="@id/web_ico"
@@ -91,7 +95,9 @@
                     android:layout_alignParentRight="true"
                     android:src="@mipmap/ic_web"
                     android:layout_marginRight="10dp"
-                    android:background="?attr/selectableItemBackground"/>
+                    android:layout_marginEnd="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="@string/web_ico"/>
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -115,7 +121,9 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
                     android:background="?attr/selectableItemBackground"
+                    android:contentDescription="@string/map_ico"
                     />
             </RelativeLayout>
         </LinearLayout>
