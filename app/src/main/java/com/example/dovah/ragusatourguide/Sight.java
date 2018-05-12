@@ -19,7 +19,7 @@ public class Sight implements Parcelable {
     private String sightName;
     private String sightDescription;
     private String sightAddress;
-    private int sightResourceId=-1;
+    private int sightResourceId;
     private String sightTelephone;
     private String sightSite;
 
@@ -42,30 +42,6 @@ public class Sight implements Parcelable {
     public String getSightSite() { return sightSite; }
 
     public String getSightTelephone() { return sightTelephone; }
-
-    public void setSightName(String sightName) {
-        this.sightName = sightName;
-    }
-
-    public void setSightDescription(String sightDescription) {
-        this.sightDescription = sightDescription;
-    }
-
-    public void setSightAddress(String sightAddress) {
-        this.sightAddress = sightAddress;
-    }
-
-    public void setSightResourceId(int sightResourceId) {
-        this.sightResourceId = sightResourceId;
-    }
-
-    public void setSightSite(String sightSite) {
-        this.sightSite = sightSite;
-    }
-
-    public void setSightTelephone(String sightTelephone) {
-        this.sightTelephone = sightTelephone;
-    }
 
     public Sight(String name, String description, String address, int resource){
         sightName=name;
